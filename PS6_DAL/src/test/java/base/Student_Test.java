@@ -30,5 +30,22 @@ public class Student_Test {
 	public void test() {
 		assertTrue(1==1);
 	}
-
+@Test
+public void createtest() {
+	
+	PersonDAL Per = new PersonDAL();
+	Per.addPerson(person1);
+}
+@Test
+public void gettest(){
+	
+}
+@Test
+public void updatetest(){
+	
+}
+@Test
+public void deletetest(){
+	
+}
 }
